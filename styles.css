@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+#notepad{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+#header{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#check-box button{
+    margin-right: 20px;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    padding: 1em;
+    border: 0;
+    box-sizing: border-box;
+}
